@@ -1,4 +1,4 @@
-# Spring Boot Monitoring Project
+# Effect of Async logging on Spring Boot Project with monitoring enabled
 
 This project provides a simple example of a Spring Boot application with monitoring capabilities using Prometheus and Spring Actuator. 
 The application includes a REST controller (`productController.java`) that exposes a two GET endpoints (`/product`, `/productasync`) to retrieve the name of a product based on the ID. The application also includes a service class (`ProductService.java`) that retrieves the product name from a static map.
